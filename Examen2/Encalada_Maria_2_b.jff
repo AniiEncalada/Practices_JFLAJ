@@ -9,24 +9,20 @@
 			<final/>
 		</state>
 		<state id="1" name="q1">
-			<x>207.0</x>
-			<y>59.0</y>
+			<x>165.0</x>
+			<y>64.0</y>
 			<final/>
 		</state>
 		<state id="2" name="q2">
-			<x>308.0</x>
-			<y>125.0</y>
+			<x>240.0</x>
+			<y>123.0</y>
 			<final/>
-		</state>
-		<state id="3" name="q3">
-			<x>419.0</x>
-			<y>127.0</y>
 		</state>
 		<!--The list of transitions.-->
 		<transition>
-			<from>3</from>
-			<to>3</to>
-			<read>0</read>
+			<from>2</from>
+			<to>0</to>
+			<read>1</read>
 		</transition>
 		<transition>
 			<from>0</from>
@@ -34,29 +30,14 @@
 			<read>1</read>
 		</transition>
 		<transition>
-			<from>3</from>
-			<to>3</to>
+			<from>1</from>
+			<to>0</to>
 			<read>1</read>
-		</transition>
-		<transition>
-			<from>2</from>
-			<to>3</to>
-			<read>0</read>
 		</transition>
 		<transition>
 			<from>1</from>
 			<to>2</to>
 			<read>0</read>
-		</transition>
-		<transition>
-			<from>2</from>
-			<to>0</to>
-			<read>1</read>
-		</transition>
-		<transition>
-			<from>1</from>
-			<to>0</to>
-			<read>1</read>
 		</transition>
 		<transition>
 			<from>0</from>
